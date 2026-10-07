@@ -1,307 +1,344 @@
 <div align="center">
 
-```
-██████╗ ██████╗  ██████╗      ██╗███████╗ ██████╗████████╗    ██╗     ██╗   ██╗███╗   ██╗ █████╗ 
-██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝██╔════╝╚══██╔══╝    ██║     ██║   ██║████╗  ██║██╔══██╗
-██████╔╝██████╔╝██║   ██║     ██║█████╗  ██║        ██║       ██║     ██║   ██║██╔██╗ ██║███████║
-██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝  ██║        ██║       ██║     ██║   ██║██║╚██╗██║██╔══██║
-██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗╚██████╗   ██║       ███████╗╚██████╔╝██║ ╚████║██║  ██║
-╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝       ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝
-```
+<img src="assets/banner.svg" alt="Luna, the crypto trading companion cat" width="100%"/>
 
-### A real fly's nervous system, walking a robot body it was never born into.
+<br/>
 
-*166,700 biological neurons. 125,000,000 real synapses. Zero lines of hand-written gait logic.*
+<a href="https://github.com/nataliedevs/Ruby-Cat-Companion">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=5CE8F0&center=true&vCenter=true&width=640&lines=watches+your+watchlist+while+you+sleep;purrs+when+your+bags+pump;hisses+before+you+get+liquidated;no+cloud.+your+keys+stay+on+the+Pi." alt="typing intro"/>
+</a>
 
-[![neurons](https://img.shields.io/badge/neurons-166%2C700-ff2e63?style=for-the-badge&logo=neurology&logoColor=white)](https://www.cell.com)
-[![synapses](https://img.shields.io/badge/synapses-~125M-08d9d6?style=for-the-badge)](https://www.cell.com)
-[![status](https://img.shields.io/badge/status-alive%20%28the%20data%2C%20not%20the%20fly%29-39ff14?style=for-the-badge)](#faq)
-[![build](https://img.shields.io/badge/gait-self--emergent-blueviolet?style=for-the-badge)](#how-it-works)
-[![license](https://img.shields.io/badge/license-MIT-white?style=for-the-badge)](#license)
+<br/><br/>
 
-[![Stars](https://img.shields.io/github/stars/project-luna/project-luna?style=social)](#)
-[![Forks](https://img.shields.io/github/forks/project-luna/project-luna?style=social)](#)
-[![Watchers](https://img.shields.io/github/watchers/project-luna/project-luna?style=social)](#)
+<img src="https://img.shields.io/badge/status-crypto%20edition%20in%20development-9C8CFF?style=for-the-badge&labelColor=140F3D" alt="status"/>
+<img src="https://img.shields.io/badge/firmware-v1.0-5CE8F0?style=for-the-badge&labelColor=140F3D" alt="firmware"/>
+<img src="https://img.shields.io/badge/license-MIT-3DF5A6?style=for-the-badge&labelColor=140F3D" alt="license"/>
+<img src="https://img.shields.io/badge/runs-100%25%20local-FF6B9A?style=for-the-badge&labelColor=140F3D" alt="local"/>
 
-<img src="docs/media/luna-walk.gif" width="560" alt="Project Luna, connectome-driven quadruped taking its first steps">
+<br/>
 
-<sub>Live capture: connectome brain viz (top right) driving the quadruped (bottom) in real time.</sub>
+<img src="https://img.shields.io/badge/Python-3.11+-EDE9FF?style=flat-square&logo=python&logoColor=EDE9FF&labelColor=140F3D" alt="python"/>
+<img src="https://img.shields.io/badge/Raspberry%20Pi-4B%20%2F%205-EDE9FF?style=flat-square&logo=raspberrypi&logoColor=EDE9FF&labelColor=140F3D" alt="pi"/>
+<img src="https://img.shields.io/badge/SQLite-memory-EDE9FF?style=flat-square&logo=sqlite&logoColor=EDE9FF&labelColor=140F3D" alt="sqlite"/>
+<img src="https://img.shields.io/badge/WebSockets-live%20prices-EDE9FF?style=flat-square&logo=socketdotio&logoColor=EDE9FF&labelColor=140F3D" alt="websockets"/>
+<img src="https://img.shields.io/badge/ONNX-vision-EDE9FF?style=flat-square&logo=onnx&logoColor=EDE9FF&labelColor=140F3D" alt="onnx"/>
+<img src="https://img.shields.io/badge/Bitcoin-%E2%97%8F-EDE9FF?style=flat-square&logo=bitcoin&logoColor=EDE9FF&labelColor=140F3D" alt="btc"/>
+<img src="https://img.shields.io/badge/Ethereum-%E2%97%8F-EDE9FF?style=flat-square&logo=ethereum&logoColor=EDE9FF&labelColor=140F3D" alt="eth"/>
+<img src="https://img.shields.io/badge/Solana-%E2%97%8F-EDE9FF?style=flat-square&logo=solana&logoColor=EDE9FF&labelColor=140F3D" alt="sol"/>
+
+<br/><br/>
+
+**[Meet Luna](#meet-luna)** &nbsp;&nbsp;
+**[Market moods](#how-she-reads-the-market)** &nbsp;&nbsp;
+**[Build log](#build-log)** &nbsp;&nbsp;
+**[Under the fur](#under-the-fur)** &nbsp;&nbsp;
+**[Quickstart](#quickstart)** &nbsp;&nbsp;
+**[Roadmap](#roadmap)** &nbsp;&nbsp;
+**[Safety](#keys-safety-fine-print)**
 
 </div>
 
----
+<br/>
 
-## TL;DR
+<a id="meet-luna"></a>
+<img src="assets/h-meet.svg" alt="Meet Luna" width="100%"/>
 
-> On September 3, 2026, **Google Research** and **HHMI Janelia** published the first complete wiring
-> diagram of an adult male fruit fly's entire central nervous system: brain, both optic lobes, and
-> ventral nerve cord, in *Cell*. It's the largest single-animal nervous-system map ever built:
-> **166,700 neurons**, **~125 million synapses**, mapped down to the individual connection.
->
-> **Project Luna** takes that exact wiring diagram, runs it as a live spiking-neuron simulation, and
-> wires the simulated sensory and motor neurons directly into a small robotic quadruped. A camera feeds
-> the visual system. Motion sensors feed the mechanosensory pathways. The motor outputs drive servos.
->
-> **Nobody coded a walk cycle.** The insect's own 400-million-year-old circuitry figures out balance
-> and locomotion on legs it never evolved to have, because the *logic* it's running was never about
-> legs in the first place. It's about turning sensory chaos into coordinated movement. We just changed
-> what's plugged into the ends.
+<table>
+<tr>
+<td width="42%" valign="top">
+<img src="assets/build/luna-closeup.gif" alt="Luna looking at the camera" width="100%"/>
+</td>
+<td valign="top">
 
----
+Luna is a robot cat that sits on your desk and watches the crypto market with you.
 
-## How It Works
+Charts are stressful to stare at. Luna turns them into something you can feel from across the room. Her eyes shift color with your watchlist, she purrs when a position hits take profit, chirps at breakouts, and stands up and hisses when something on your book gets close to liquidation.
 
-```mermaid
-flowchart LR
-    subgraph BODY["Robot Body: Quadruped Chassis"]
-        CAM["Camera"]
-        IMU["Motion / IMU Sensors"]
-        SRV["8x Leg Servos"]
-    end
+She is not a trading bot with a cute skin. She is a companion. She remembers how you treat her, learns your habits, and gets a little anxious if you go quiet during a crash.
 
-    subgraph BRIDGE["luna-bridge"]
-        ENC["Sensor to Spike Encoder"]
-        DEC["Spike to Servo Decoder"]
-    end
+**What she does**
 
-    subgraph BRAIN["MaleCNS v1.0: Simulated Connectome"]
-        OPT["Optic Lobes\n(~50k neurons)"]
-        CNS["Central Brain\n(~40k neurons)"]
-        VNC["Ventral Nerve Cord\n(~76k neurons)"]
-        SYN["125M synapses\nreal weighted connections"]
-    end
+- Streams live prices from the exchanges you pick
+- Maps market moves to mood, eyes, voice and pose
+- Fires alerts you can snooze by patting her head
+- Tracks portfolio PnL from read only keys or wallet addresses
+- Recognizes your face and greets you with the overnight move
+- Runs entirely on a Raspberry Pi inside her body
 
-    CAM -->|pixels| ENC
-    IMU -->|accel / gyro| ENC
-    ENC -->|spike trains| OPT
-    OPT --> CNS
-    CNS --> VNC
-    VNC -->|motor spikes| DEC
-    DEC -->|PWM| SRV
-    SYN -.-> OPT
-    SYN -.-> CNS
-    SYN -.-> VNC
-
-    style BRAIN fill:#1a0b2e,stroke:#ff2e63,stroke-width:2px,color:#fff
-    style BRIDGE fill:#0f3460,stroke:#08d9d6,stroke-width:2px,color:#fff
-    style BODY fill:#16213e,stroke:#39ff14,stroke-width:2px,color:#fff
-```
-
-<details>
-<summary><b>What's actually simulated vs. what's real hardware (click to expand)</b></summary>
-<br>
-
-| Layer | What it is | Real or simulated? |
-|---|---|---|
-| Connectome topology | Every neuron and every synapse from the published MaleCNS v1.0 dataset | **Real**, from the published *Cell* dataset |
-| Neuron dynamics | Leaky integrate-and-fire spiking model per node | Simulated approximation of biological firing |
-| Synaptic weights | Connection strengths pulled from the EM reconstruction | **Real**, actual measured connection counts |
-| The fly | Any living tissue, cells, or biological material | **None.** Nothing biological is alive in this loop |
-| The body | 3D-printed quadruped chassis and off-the-shelf servos | Real hardware, not insect-shaped |
-| The gait | Hand-coded balance/locomotion logic | **None written.** Emerges from the circuit itself |
-
-</details>
-
----
-
-## Demo
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-<img src="docs/media/luna-walk.gif" width="480" alt="Project Luna demo: fly connectome driving a quadruped">
-
-<sub>The connectome visualization (top right) fires live while the quadruped balances below.</sub>
+| Part of Luna | Status |
+| :-- | :-- |
+| Body, gait, 19 servo skeleton | ![](https://img.shields.io/badge/built-3DF5A6?style=flat-square&labelColor=140F3D) |
+| Eye display, face recognition | ![](https://img.shields.io/badge/built-3DF5A6?style=flat-square&labelColor=140F3D) |
+| SenseFur touch skin, PurrSynth voice | ![](https://img.shields.io/badge/built-3DF5A6?style=flat-square&labelColor=140F3D) |
+| Personality engine and memory | ![](https://img.shields.io/badge/built-3DF5A6?style=flat-square&labelColor=140F3D) |
+| Companion app | ![](https://img.shields.io/badge/prototype-5CE8F0?style=flat-square&labelColor=140F3D) |
+| MarketSense price feeds and alerts | ![](https://img.shields.io/badge/in%20development-9C8CFF?style=flat-square&labelColor=140F3D) |
+| Mood bridge (market to personality) | ![](https://img.shields.io/badge/in%20development-9C8CFF?style=flat-square&labelColor=140F3D) |
+| Paper trading mode | ![](https://img.shields.io/badge/planned-FF6B9A?style=flat-square&labelColor=140F3D) |
 
 </div>
 
----
+<br/>
 
-## System Architecture
+<a id="how-she-reads-the-market"></a>
+<img src="assets/h-mood.svg" alt="How she reads the market" width="100%"/>
 
-```mermaid
-sequenceDiagram
-    autonumber
-    participant Cam as Camera
-    participant IMU as IMU
-    participant Enc as Sensor Encoder
-    participant Brain as Connectome Sim
-    participant Dec as Motor Decoder
-    participant Legs as Servos
+<img src="assets/mood-map.svg" alt="Luna's market mood spectrum" width="100%"/>
 
-    loop every 5ms tick
-        Cam->>Enc: raw frame
-        IMU->>Enc: accel / gyro
-        Enc->>Brain: spike-encoded input (photoreceptor + campaniform sensilla channels)
-        Brain->>Brain: propagate through 166,700 neurons / 125M synapses
-        Brain->>Dec: motor neuron spike output (VNC leg circuits)
-        Dec->>Legs: PWM commands
-        Legs-->>IMU: physical feedback (closed loop)
-    end
+Luna does not just flash a color. Every market event is fed into the same personality engine that handles touch and faces, so a rough week actually changes her. After a long drawdown she gets clingy and cautious. After a clean run she gets bold and playful. Pet her during a dip and her mood recovers faster, just like yours.
+
+<details>
+<summary><b>Full reaction table</b></summary>
+<br/>
+
+| Market event | Eyes | Voice | Body |
+| :-- | :-- | :-- | :-- |
+| Price crosses a level you set | quick double blink | chirp | ears perk, head tilts toward you |
+| Take profit filled | green, happy squint | long purr | kneads, slow blink |
+| Stop loss hit | pink, pupils wide | soft mew | lies down, tail wraps |
+| Position near liquidation | pink slits | hiss | stands up, arches back |
+| Funding flips negative | cyan flicker | trill | tail twitch |
+| Whale transfer on a watched wallet | cyan, wide | alert meow | looks at the door |
+| Market flat for 6h | cyan, sleepy | none | grooms, then naps |
+| You come back after a big move | color of the move | greeting | walks over with the summary |
+
+</details>
+
+<br/>
+
+<a id="build-log"></a>
+<img src="assets/h-build.svg" alt="Build log" width="100%"/>
+
+From a pile of servos on a test rig to a cat that blinks back at you.
+
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="assets/build/01-skeleton-gait.gif" width="100%" alt="Skeleton gait test"/>
+<br/><sub><b>Skeleton gait test.</b> First steps on the tether rig with the FlexBone-X legs and bare servo wiring.</sub>
+<br/><sub><a href="assets/videos/01-skeleton-gait.mp4">watch full clip</a></sub>
+</td>
+<td width="50%" align="center">
+<img src="assets/build/02-shell-assembly.gif" width="100%" alt="Shell assembly"/>
+<br/><sub><b>Shell assembly.</b> Pi stack, driver boards and servos mounted, then the head and shell go on.</sub>
+<br/><sub><a href="assets/videos/02-shell-assembly.mp4">watch full clip</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="assets/build/03-eye-display.gif" width="100%" alt="Eye display test"/>
+<br/><sub><b>Eye display.</b> Iris color, blink timing and pupil size tests. This is where the market colors live.</sub>
+<br/><sub><a href="assets/videos/03-eye-display.mp4">watch full clip</a></sub>
+</td>
+<td width="50%" align="center">
+<img src="assets/build/04-app-control.gif" width="100%" alt="App control demo"/>
+<br/><sub><b>Companion app.</b> Switching eye styles and poses from the phone. Price alerts land here next.</sub>
+<br/><sub><a href="assets/videos/04-app-control.mp4">watch full clip</a></sub>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<a id="under-the-fur"></a>
+<img src="assets/h-stack.svg" alt="Under the fur" width="100%"/>
+
+<img src="assets/architecture.svg" alt="Luna architecture" width="100%"/>
+
+The whole runtime is a single Python process on the Pi. Subsystems run in their own threads and share one SQLite memory store. No message bus, no cloud, no account.
+
+```
+luna.runtime
+  |
+  +-- luna.market.MarketSense         exchange websockets, candles, alert engine   (new)
+  +-- luna.market.MoodBridge          market affect into the personality engine    (new)
+  +-- luna.firmware.NeuralUnit        UART, instinct model
+  +-- luna.vision.VisionPipeline      face ID, depth, tracking
+  +-- luna.tactile.SenseFurArray      128 point touch skin @ 100Hz
+  +-- luna.personality.PersonalityEngine
+  +-- luna.locomotion.LocomotionController
+  +-- luna.audio.PurrSynth
+  +-- luna.power.MoodCell
+  +-- luna.memory.MemoryStore         SQLite, shared by everything
 ```
 
----
+<details>
+<summary><b>Hardware at a glance</b> (about $370 all in)</summary>
+<br/>
 
-## Repo Structure
+| Part | Module | Job | Approx. |
+| :-- | :-- | :-- | --: |
+| Compute | Raspberry Pi 4B / 5 | runs everything, holds your keys | $55 |
+| Neural unit | claude-neural-v3 | instinct and personality co-processor | $89 |
+| Vision | ClaudeVision-Lite | face ID, tracking, depth | $34 |
+| Skeleton | FlexBone-X | 19 DOF aluminum and TPU frame | $55 |
+| Touch skin | SenseFur v2 | 128 point pressure and temperature | $22 |
+| Voice | PurrSynth v2.1 | purrs, chirps, hisses | $14 |
+| Battery | MoodCell 4400mAh | power, also feeds her energy level | $28 |
+| Dock | RestPod v1 | wireless charging base | $17 |
+| Tail | TailSense v2 | 3 DOF tail with tip sensor | $12 |
+| Skin | silicone casing | shell and touch surface | $30 |
+| Drivers | PCA9685 + MCP3008 | servo PWM and battery ADC | $12 |
 
-```
-project-luna/
-├── connectome/
-│   ├── malecns_v1.h5            # neuron + synapse graph (not included, see Data section)
-│   ├── loader.py                 # parses the published connectome dataset
-│   └── regions.yaml               # optic lobe / central brain / VNC region maps
-│
-├── sim/
-│   ├── lif_engine.cu              # GPU leaky integrate-and-fire spiking engine
-│   ├── synapse_prop.py            # spike propagation across 125M weighted edges
-│   └── realtime_scheduler.py      # keeps sim step under 5ms for closed-loop control
-│
-├── bridge/
-│   ├── sensor_encoder.py          # camera + IMU to spike trains
-│   ├── motor_decoder.py           # VNC output spikes to servo PWM
-│   └── channel_map.yaml           # which neuron IDs map to which I/O channel
-│
-├── firmware/
-│   ├── quadruped_hal.ino          # low-level servo + sensor hardware abstraction
-│   └── failsafe.ino               # watchdog, kills power if spike rate goes pathological
-│
-├── monitor/
-│   └── luna-dash/                 # live web dashboard: spike raster + 3D limb trace
-│
-├── docs/
-│   ├── media/                     # gifs, renders, brain viz
-│   └── ARCHITECTURE.md
-│
-├── tests/
-├── requirements.txt
-└── README.md
-```
+Full wiring, pinouts, joint map, calibration and flashing guides live in **[docs/hardware.md](docs/hardware.md)**.
 
----
+</details>
 
-## Quickstart
+<br/>
+
+<a id="quickstart"></a>
+<img src="assets/h-start.svg" alt="Quickstart" width="100%"/>
+
+**1. Clone and install on the Pi** (64 bit Raspberry Pi OS Bookworm, Python 3.11+)
 
 ```bash
-# clone it
-git clone https://github.com/project-luna/project-luna.git
-cd project-luna
-
-# the connectome dataset itself is NOT bundled here, see "Data" below
-python connectome/loader.py --fetch malecns_v1
-
-# spin up the spiking simulation on GPU
-python sim/realtime_scheduler.py --engine lif_engine.cu --target-hz 200
-
-# bridge simulated motor cord output to the robot over serial
-python bridge/motor_decoder.py --port /dev/ttyUSB0 --channel-map bridge/channel_map.yaml
-
-# watch it think, live
-cd monitor/luna-dash && npm install && npm run dev
+git clone https://github.com/nataliedevs/Ruby-Cat-Companion.git luna
+cd luna
+pip install -r requirements.txt
 ```
 
+**2. Flash firmware and calibrate her skin**
+
+```bash
+./scripts/flash_neural.sh --port /dev/ttyUSB0 --verify
+./scripts/flash_purrsynth.sh --port /dev/ttyUSB1
+python3 scripts/calibrate_sensefur.py --output config/sensefur_cal.bin   # hands off for 5 seconds
+```
+
+**3. Let her learn your face**
+
+```bash
+python3 scripts/enroll_face.py --name "Natalie" --samples 30
+```
+
+**4. Give her a watchlist** in `config.yaml`
+
+```yaml
+market:
+  exchanges: [binance, coinbase]        # public streams, no keys needed
+  watchlist: [BTC, ETH, SOL]
+  quote: USDT
+  mood_window: 24h
+  thresholds:                           # % move that sets each mood
+    red_alert: -8
+    bleeding: -3
+    pumping: 3
+    moon_mode: 8
+  portfolio:
+    keys_file: config/keys.enc          # read only keys, encrypted at rest
+    wallets:
+      - 0xYourWatchedAddress            # optional, read only
+  quiet_hours: "00:00-07:00"            # she still watches, she just does not hiss
+```
+
+**5. Wake her up**
+
+```bash
+python3 -m luna.runtime --config config.yaml
+```
+
+<details>
+<summary><b>Talk to her from Python</b> (preview API, may change)</summary>
+<br/>
+
+```python
+from luna.market import MarketSense, Alert
+
+ms = MarketSense.from_config("config.yaml")
+
+ms.add_alert(Alert.level("BTC", above=100_000, react="chirp"))
+ms.add_alert(Alert.move("SOL", pct=+5, window="1h", react="purr"))
+ms.add_alert(Alert.liquidation(buffer_pct=10, react="hiss"))
+
+@ms.on_mood
+def mood_changed(state):
+    # state.label  -> "chop" | "pumping" | "moon_mode" | "bleeding" | "red_alert"
+    # state.affect -> 0.0 (fear) .. 1.0 (greed)
+    print(state.label, round(state.affect, 2))
+
+ms.start()
+```
+
+</details>
+
+<br/>
+
+<a id="roadmap"></a>
+<img src="assets/h-roadmap.svg" alt="Roadmap" width="100%"/>
+
+- [x] Walking skeleton and gait library
+- [x] Eye display with blink, color and pupil control
+- [x] Touch skin, voice, face recognition, persistent personality
+- [x] Companion app prototype
+- [ ] MarketSense: exchange websockets, candle store, alert engine
+- [ ] Mood bridge: market affect wired into the personality engine
+- [ ] Read only portfolio tracking (exchange keys and wallet addresses)
+- [ ] Morning briefing when she sees your face
+- [ ] Price alerts pushed to the companion app
+- [ ] Paper trading mode where Luna calls the trades and you grade her
+- [ ] On chain watch: whale moves, token unlocks, gas spikes
+
+<br/>
+
+<a id="keys-safety-fine-print"></a>
+<img src="assets/h-safety.svg" alt="Keys, safety, fine print" width="100%"/>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**Read only by default**
+
+Luna only needs read permissions to watch prices and your portfolio. Create API keys with trading and withdrawals switched off. She has no reason to ever move your funds.
+
+</td>
+<td width="33%" valign="top">
+
+**Keys stay home**
+
+Keys are encrypted at rest on the Pi and never leave the device. No cloud, no telemetry, no account. Unplug the network and she still remembers you.
+
+</td>
+<td width="33%" valign="top">
+
+**Not financial advice**
+
+Luna is a companion, not an advisor. Her moods come from price action, not predictions. Crypto is volatile and you can lose money. Do your own research.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<details>
+<summary><b>Contributing</b></summary>
+<br/>
+
+PRs are welcome. Commits follow `type(scope): description`, for example `feat(market): kraken websocket` or `fix(eyes): color fade timing`.
+
+Before opening a PR:
+
+```bash
+ruff check luna/ tests/
+mypy luna/ --ignore-missing-imports
+pytest tests/unit/ -v
+```
+
+New gaits go in `config/gaits/`. New mood reactions go in `config/reactions.yaml`. Hardware changes need matching updates to `docs/hardware.md` and `bom.json`. Open an issue before starting anything big.
+
+</details>
+
+<br/>
+
 <div align="center">
-<sub>Dashboard renders a live spike raster across all 166,700 neurons at ~30fps. Your GPU will notice.</sub>
-</div>
+<img src="assets/footer.svg" alt="Luna is resting. The market never does." width="100%"/>
 
----
-
-## Roadmap
-
-- [x] Parse full MaleCNS v1.0 graph (166,700 nodes / 125M edges) into a loadable sim format
-- [x] Real-time LIF spiking engine hitting <5ms/tick on consumer GPU
-- [x] Sensor encoder: camera frame to optic lobe spike trains
-- [x] Motor decoder: ventral nerve cord output to 8-channel servo PWM
-- [x] First unassisted stand
-- [x] First unassisted 4-beat gait across a flat desk
-- [ ] Closed-loop obstacle response (currently open-loop reflex only)
-- [ ] Swap quadruped chassis for hexapod, closer to native leg count
-- [ ] Live spike-raster overlay on brain mesh (`docs/media` render)
-- [ ] Port sim engine to run on-device (Jetson) instead of tethered GPU box
-
----
-
-## The Real Science (please read this part)
-
-This project is a **hobbyist build**, not an official Google or HHMI Janelia release. The connectome
-data it's built on is 100% real, though:
-
-- **Dataset:** *MaleCNS v1.0*, the complete adult male *Drosophila melanogaster* central nervous
-  system connectome (brain, both optic lobes, ventral nerve cord).
-- **Published:** *Cell*, September 3, 2026, as a package of four papers. Lead study:
-  *"Sexual dimorphism in the complete connectome of the Drosophila male central nervous system."*
-- **Built by:** Google Research, HHMI Janelia's FlyEM project, the MRC Laboratory of Molecular
-  Biology, and the University of Cambridge Connectomics Group.
-- **Scale:** ~166,700 neurons, ~125 million synapses. The largest complete single-animal nervous
-  system map published to date, reconstructed from electron-microscope imaging with AI-assisted
-  segmentation and human verification.
-- **Explore the raw data yourself:** it's publicly browsable through Neuroglancer via the Janelia
-  and FlyWire connectomics ecosystem.
-
-This release also kicked off a wave of independent projects wiring the same connectome into other
-substrates: driving gameplay in *Doom* and *Super Mario 64*, simulating fly movement inside
-*Minecraft*, and now, here, into a physical quadruped. **Project Luna is one of those community
-builds**, not a product of the original research groups.
-
----
-
-## FAQ
-
-<details>
-<summary><b>Is there a living fly involved in any way?</b></summary>
-<br>
-No. Nothing biological is alive in this loop, at any point. The connectome is a digital wiring
-diagram, a graph of which neurons connect to which and how strongly, reconstructed from electron
-microscope images of fly tissue. What's running on the robot is a computational simulation of that
-graph, executed on ordinary silicon. The brain is real data. The body is borrowed hardware. Nothing
-in between is alive.
-</details>
-
-<details>
-<summary><b>Wait, so it's not really "thinking"?</b></summary>
-<br>
-It's running the same circuit topology and synaptic weights a real fly's nervous system uses to turn
-sensory input into coordinated motor output. Whether that constitutes "thinking" is a real, open,
-and genuinely unsettled question. Reasonable people land in very different places on it, and this
-README isn't going to resolve it for you.
-</details>
-
-<details>
-<summary><b>Why a quadruped and not something with six legs, like an actual fly?</b></summary>
-<br>
-Mostly because a spare quadruped chassis was on hand. The ventral nerve cord's leg-control circuitry
-doesn't "know" how many legs it's driving. It fires based on the sensory feedback it receives and
-propagates that outward. Whatever's on the other end, walks or doesn't, is on it.
-</details>
-
-<details>
-<summary><b>Can I run this without a GPU?</b></summary>
-<br>
-Technically yes, in software-only mode with <code>--engine cpu_fallback</code>, but expect sim rate
-to drop well below the 5ms/tick needed for stable closed-loop balance. Fine for offline analysis,
-rough for live locomotion.
-</details>
-
----
-
-## Contributing
-
-PRs welcome, especially on the obstacle-response closed loop and the hexapod port. Please open an
-issue before large changes. The sensor/motor channel mapping is fiddly and easy to desync.
-
-## License
-
-MIT for all code in this repo. The underlying MaleCNS v1.0 connectome dataset carries its own
-license from the publishing institutions. Check their terms before redistributing the raw data.
-
-## Acknowledgments
-
-All credit for the actual neuroscience goes to Google Research, HHMI Janelia's FlyEM team, the MRC
-Laboratory of Molecular Biology, and the University of Cambridge Connectomics Group. This repo just
-plugs their decade-plus of work into a robot for fun.
-
-<div align="center">
-
----
-
-**Project Luna**, the brain is real, the body is borrowed.
-
+<sub><a href="#meet-luna">back to top</a></sub>
 </div>
