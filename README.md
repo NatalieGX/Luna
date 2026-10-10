@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="https://github.com/nataliedevs/Ruby-Cat-Companion">
+<a href="https://github.com/nataliegx">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=5CE8F0&center=true&vCenter=true&width=640&lines=watches+your+watchlist+while+you+sleep;purrs+when+your+bags+pump;hisses+before+you+get+liquidated;no+cloud.+your+keys+stay+on+the+Pi." alt="typing intro"/>
 </a>
 
@@ -198,7 +198,6 @@ Full wiring, pinouts, joint map, calibration and flashing guides live in **[docs
 **1. Clone and install on the Pi** (64 bit Raspberry Pi OS Bookworm, Python 3.11+)
 
 ```bash
-git clone https://github.com/nataliedevs/Ruby-Cat-Companion.git luna
 cd luna
 pip install -r requirements.txt
 ```
